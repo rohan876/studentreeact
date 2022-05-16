@@ -3,10 +3,15 @@ import './App.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Addstudent from './components/Addstudent';
+import Searchstud from './components/Searchstud';
+
+
 
 function App() {
   return (
-    <Addstudent/>
+    
+    <Searchstud/>
+    
   );
 }
 

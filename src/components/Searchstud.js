@@ -1,8 +1,11 @@
 import React from 'react'
+import Head from './Head'
 
 const Searchstud = () => {
   return (
-    <div><div className="container">
+    <div>
+      <Head/>
+      <div className="container">
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <label for="" className="form-label">University Register no</label>
